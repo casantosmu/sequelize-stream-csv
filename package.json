@@ -1,0 +1,15 @@
+{
+  "name": "sequelize-stream-csv",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "dev": "node --env-file=.env --inspect src/index.js",
+    "seed": "node --env-file=.env src/seed.js"
+  },
+  "dependencies": {
+    "fast-csv": "^5.0.1",
+    "pg": "^8.12.0",
+    "pg-query-stream": "^4.6.0",
+    "sequelize": "^6.37.3"
+  }
+}
